@@ -87,6 +87,13 @@ function gnl_schema_default_services_endpoint() {
         ),
       ),
     ),
+    'org_totals_services' => array(
+      'operations' => array(
+        'index' => array(
+          'enabled' => '1',
+        ),
+      ),
+    ),
   );
   $endpoint->debug = 0;
   $export['gnl_10'] = $endpoint;
